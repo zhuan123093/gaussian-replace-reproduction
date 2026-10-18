@@ -1,0 +1,49 @@
+{
+  "source": "A2 Gaussian code",
+  "date": "2026-10-17",
+  "python_source_count": 15,
+  "source_sha256": {
+    "analyze_results.py": "75656906ee960efbc2f4f12b99cebd33c425621b1b1576494b9290217dbf861c",
+    "gaussian_core.py": "416e1bd7320675d31a9bed1336bf380c1b51e818482f06bb49f03bb840d564f2",
+    "main.py": "e7d01572e74f4d4d934af1b39bb19754c065e571bcaf114358251f651f0981a6",
+    "run_experiments.py": "6f6fb1348b4abfc6bdd2b8aa6fd512a22e696e4784abe44f81175f15308e49c9",
+    "requirements.txt": "e5be8e7cd9a27089f48b983f332cb61094240f0dc67b181e4fcf714403206cb9",
+    "memory/audit_parameter_memory.py": "7b25a727885c50165a4932cc7ed930115d08f8047275bfb4021672f7b90e651e",
+    "memory/parameter_memory.py": "df48f0b066a156f2eb453f4921d31e32f5117daf99d2f779fc79929e67b465d1",
+    "memory/run_parameter_memory.py": "c6a4ad95a7190349822bbbc578bdccd0d3e839250857bb868082d71377ae55b4",
+    "checks/verify_outputs.py": "e278ace02353054b77418497118bd9748ab3f5104bd72a24c42d61f2d73582ea",
+    "theory/gaussian_theory.py": "5ae3e5f37c1d00ffa386eaefedbd49caf26686ef83d8dd7bacdfb4d11fb6540a",
+    "theory/spectral_bounds.py": "e06d30c96384408e3bf214ed4c6c9185066cb55a507aa79244d09018baa47e6f",
+    "theory/validate_spectral_bounds.py": "ff4c746bdb73da326d845e9403dbbf5d2077bbef9f3887473d60ddbed2f63cb4",
+    "theory/validate_theory.py": "bdb6429cf624866cba9cf29850354bf7eb34660854d806a7afc4ac22e78c8c89",
+    "tests/conftest.py": "8659c4f6af34a32f61ecc29774fd873cf628e7e0828ce9ff04773418357a6cc6",
+    "tests/test_gaussian_study.py": "23ec6b05b30920f6ca71ff01db2bb51f8b3685abfc3d76e224b5ef667be9989a",
+    "tests/test_parameter_memory.py": "cf463d718791d7cbd8aff603e2a73f8e0a0c75287a4aeeb323ad0506c3bc533a",
+    "theory/requirements.txt": "5e2ca021fdb0a266dcf6b7bbfcdbf47d6c511464a990a09bb992cadcf7af8bb1"
+  },
+  "existing_main_trajectories": 5260,
+  "existing_memory_trajectories": 600,
+  "raw_trajectories_included": false,
+  "validation": {
+    "checked_at_utc": "2026-10-17T09:41:40.952749+00:00",
+    "python": "3.11.5",
+    "packages": {
+      "numpy": "1.26.4",
+      "scipy": "1.14.1",
+      "pandas": "2.3.3",
+      "matplotlib": "3.10.0",
+      "threadpoolctl": "3.5.0",
+      "pytest": "7.4.0",
+      "sympy": "1.11.1"
+    },
+    "tests_passed": 18,
+    "main_smoke_trajectories": 10,
+    "main_smoke_generations": 20,
+    "memory_smoke_trajectories": 40,
+    "memory_smoke_generations": 25,
+    "directional_audit": "passed",
+    "formal_results": "Copied existing summaries; formal experiments were not rerun",
+    "pdf_pages": 2,
+    "pdf_visual_review": "passed"
+  }
+}
